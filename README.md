@@ -81,5 +81,5 @@ There is a single view file, `/views/home.ejs`, which gets rendered when you vis
 * `/scripts/axios.min.js` [Axios](https://github.com/axios/axios) HTTP client (dynamically loaded from `/node_modules`)
 * `/scripts/home.js` An empty JavaScript file where custom functions can be added
 
-The web is not yet wired up, but when the submit button is clicked it should pass the contents of the text input to
+The web form is not yet wired up, but when the submit button is clicked it should pass the contents of the text input to
 the REST API endpoint `GET /pixelate` and render the response in the `<pre id="result"></pre>` block.
